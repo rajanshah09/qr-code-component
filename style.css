@@ -1,0 +1,63 @@
+
+   /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    font-family: 'Outfit', sans-serif;*/
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Montserrat:ital,wght@1,500;1,600&family=Outfit:wght@400;700&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+       box-sizing: border-box; 
+    }
+    :root{
+         --White: hsl(0, 0%, 100%);
+         --Light-gray: hsl(212, 45%, 89%);
+         --Grayish-blue: hsl(220, 15%, 55%);
+         --Dark-blue: hsl(218, 44%, 22%);
+    }
+    body{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--Light-gray);
+        width:50%;
+        margin:auto;
+        font-size: 15px;
+        font-family: 'Outfit', sans-serif;
+        
+    }
+    .container{
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+    .imag img{
+        max-width: 100%;
+        border-radius: 20px;   
+    }
+    h2{
+        line-height:1.1em;
+        font-size: 15px;
+    }
+    p{
+        line-height:1.2em;
+        font-size: 15px;
+        opacity: 0.5;
+    }
+    
+    
+
+
+
+
+
