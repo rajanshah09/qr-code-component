@@ -21,7 +21,7 @@
         justify-content: center;
         background-color: var(--Light-gray);
         width:50%;
-        margin:auto;
+        margin: 0 auto;
         font-size: 15px;
         font-family: 'Outfit', sans-serif;
         
@@ -35,6 +35,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    max-width:40%;
 }
 .text{
     display: flex;
@@ -46,8 +47,9 @@
         border-radius: 20px;   
     }
     h2{
-        line-height:1.1em;
-        font-size: 15px;
+        line-height:1em;
+        font-size: 20px;
+        font-weight:700;
     }
     p{
         line-height:1.2em;
